@@ -1,10 +1,11 @@
 {
   "name": "logseq-markdown-url-copy-plugin",
-  "description": "Copy logseq page url as markdown link",
+  "description": "Copy the Logseq page URL as a Markdown link.",
   "version": "1.0.0",
   "author": "Hidekazu Kubota",
   "main": "index.html",
   "license": "MIT",
+  "repository": "sosuisen/logseq-markdown-url-copy-plugin",
   "logseq": {
     "id": "logseq-markdown-url-copy_3sulqr0v8",
     "title": "Markdown Url Copy Plugin",
