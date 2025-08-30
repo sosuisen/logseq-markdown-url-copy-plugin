@@ -8,4 +8,6 @@ For example, if the page name is "mypage," the copied text will be:
 
 `[mypage](logseq://graph/_Logseq?page=mypage)`
 
+With this feature, you can easily paste links to Logseq pages into other Markdown-based tools.
+
 ![copy button](img/screen.png)
