@@ -1,0 +1,8 @@
+icon.clip
+
+# Editor directories and files
+.vscode/*
+.DS_Store
+
+# OS generated files
+Thumbs.db
