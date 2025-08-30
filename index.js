@@ -6,11 +6,16 @@ function main() {
     template: `
      <a data-on-click="copyPageAsMarkdownLink" title="Copy page URL as Markdown link"> 
       <span class="material-symbols-outlined">
-        Link
+        link
       </span>
      </a> 
     `,
   })
+
+  logseq.provideStyle(`
+    @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+  `)
+
 }
 
 function createModel() {
