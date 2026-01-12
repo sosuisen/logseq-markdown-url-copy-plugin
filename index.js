@@ -106,11 +106,11 @@ const main = () => {
     `,
   });
 
-  logseq.Editor.registerSlashCommand('🔗 Copy block URL as Markdown link', async ({ uuid }) => {
+  logseq.Editor.registerSlashCommand('Copy block URL as Markdown link', async ({ uuid }) => {
     await copyBlockAsMarkdownLink({ uuid });
   })
 
-  logseq.Editor.registerBlockContextMenuItem('🔗 Copy block URL as Markdown link', async ({ uuid }) => {
+  logseq.Editor.registerBlockContextMenuItem('Copy block URL as Markdown link', async ({ uuid }) => {
     await copyBlockAsMarkdownLink({ uuid });
   });
 
